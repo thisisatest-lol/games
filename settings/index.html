@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+    <link href="select2override.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #23272a;
+        font-family: sans-serif;
+      }
+      button {
+        background-color: #2c2f33;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      option {
+        color: #ffffff;
+        font-family: "Comic Sans MS";
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="display: flex">
+      <a href="javascript:history.go(-1)">
+        <img
+          src="/imgs/back.svg"
+          style="
+            filter: invert(100%) sepia(5%) saturate(20%) hue-rotate(101deg)
+              brightness(105%) contrast(105%);
+            width: 35px;
+          " />
+      </a>
+      <span style="margin-left: 15px">settings</span>
+    </h1>
+    <select id="selectbox">
+      <option value="drive">google drive</option>
+      <option value="calendar">google calendar</option>
+      <option value="youtube">youtube</option>
+      <option value="gmail">gmail</option>
+      <option value="google">google</option>
+      <option value="onedrive">onedrive</option>
+      <option value="outlook">outlook</option>
+      <option value="github">github</option>
+      <option value="dropbox">dropbox</option>
+      <option value="box">box</option>
+      <option value="gitlab">gitlab</option>
+      <option value="bitbucket">bitbucket</option>
+      <option value="git">git</option>
+      <option value="classroom">google classroom</option>
+      <option value="meet">google meet</option>
+      <option value="docs">google docs</option>
+      <option value="sheets">google sheets</option></select
+    ><br />
+    <button id="changebutton"><h1>change</h1></button>
+  </body>
+</html>

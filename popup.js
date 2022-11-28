@@ -58,4 +58,4 @@ const fullscreenthing = document.getElementById("fullscreenthing");
 // chrome-extension://gbdmgmjeepkkgimbolaljoimengoiife/src/html/popup.html
 fullscreenthing.href =
   "chrome-extension://" + chrome.runtime.id + "/popup.html";
-isnewversion()
+isnewversion();
