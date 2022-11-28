@@ -5,6 +5,6 @@ $(document).ready(function() {
         alert("The value is: " + $("#selectbox").val());
         var selected = $("#selectbox").val()
 
-        window.top.postMessage(`set jdsajdsakl ${selected}`, '*')
+        window.top.postMessage(`jdsajdsakl ${selected}`, '*')
     })
 });
